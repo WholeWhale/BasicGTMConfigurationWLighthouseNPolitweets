@@ -13,7 +13,13 @@ In Google Tag Manager:
 * Under `Choose an import option`, select `merge`
 * Select `rename conflicting tags` if your container is not empty
 * Click *confirm*
-You are now ready to customize and use the tags. Preview and edit as needed. 
+
+You are now ready to customize and use the tags. Preview and edit as needed.    
+
+To make sure politweets is on your site properly, you will also need to place the html `<div>` element provided by [the politweets app](https://app.politweets.org/campaigns) in the location that you will like the widget to appear on the page, the snippet should look something like so:
+```
+<div id="wholewhale-polytweet-main" campaign_id="0b000cf0-0000-0000-00fd-cec00000e000" pid="00b0e00d-00fc-0d0e-0e0e-000efe0e00ab"></div>
+``` 
 
 ## Formula Contents
 
